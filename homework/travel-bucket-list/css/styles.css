@@ -1,55 +1,70 @@
 body {
 	background: rgb(217, 217, 217);
-	margin: 0;
 	font-family: helvetica;
+	margin: 0 auto;	
 }
 
 #container {
-	width: 750px;
-	margin: 0 auto;
 	background: white;
+	margin: 0 auto;
 	padding: 15px;
+	width: 750px;
 }
 
 h1 {
-	text-align: center;
 	background: rgb(12, 195, 149);
 	color: white;
+	font-size: 25px;
 	margin: 0;
 	padding: 20px 0;
-	font-size: 25px;
+	text-align: center;
 }
 
 h2 {
 	padding: 20px 0 0 0;
 }
+
+p {
+	text-align: left;
+	font-size: 15px;
+}
+
 .nav {
 	display: inline-block;
+	padding-right: 15px;
 }
 
 #navigation-bar {
 	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 #maui-container {
-	background: fuchsia;
-	text-align: center;
+	background: wheat;
 	image-rendering: center;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
 }
 
-
 #reykjavik-container {
-	background: fuchsia;
-	text-align: center;
+	background: wheat;
 	image-rendering: center;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
 }
 
 #aspen-container {
-	background: fuchsia;
-	text-align: center;
+	background: wheat;
 	image-rendering: center;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
 }
 
+#footer {
+	font-weight: bold;
+	text-align: center;
+}
