@@ -1,0 +1,26 @@
+body {
+	background: rgb(217, 217, 217);
+	margin: 0;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+	background: white;
+	padding: 15px;
+
+}
+
+h1 {
+	text-align: center;
+	background: rgb(12, 195, 149);
+	color: white;
+	margin: 0;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.nav {
+	display: inline-block;
+	text-align: center;
+}
