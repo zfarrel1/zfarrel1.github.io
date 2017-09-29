@@ -1,6 +1,7 @@
 body {
 	background: rgb(217, 217, 217);
 	margin: 0;
+	font-family: helvetica;
 }
 
 #container {
@@ -8,7 +9,6 @@ body {
 	margin: 0 auto;
 	background: white;
 	padding: 15px;
-
 }
 
 h1 {
@@ -17,10 +17,39 @@ h1 {
 	color: white;
 	margin: 0;
 	padding: 20px 0;
-	font-size: 20px;
+	font-size: 25px;
 }
 
+h2 {
+	padding: 20px 0 0 0;
+}
 .nav {
 	display: inline-block;
+}
+
+#navigation-bar {
 	text-align: center;
 }
+
+#maui-container {
+	background: fuchsia;
+	text-align: center;
+	image-rendering: center;
+	margin-bottom: 50px;
+}
+
+
+#reykjavik-container {
+	background: fuchsia;
+	text-align: center;
+	image-rendering: center;
+	margin-bottom: 50px;
+}
+
+#aspen-container {
+	background: fuchsia;
+	text-align: center;
+	image-rendering: center;
+	margin-bottom: 50px;
+}
+
