@@ -1,0 +1,70 @@
+body {
+	background: rgb(217, 217, 217);
+	font-family: helvetica;
+	margin: 0 auto;	
+}
+
+#container {
+	background: white;
+	margin: 0 auto;
+	padding: 15px;
+	width: 750px;
+}
+
+h1 {
+	background: rgb(12, 195, 149);
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+h2 {
+	padding: 20px 0 0 0;
+}
+
+p {
+	text-align: left;
+	font-size: 15px;
+}
+
+.nav {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#navigation-bar {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#maui-container {
+	background: lightblue;
+	image-rendering: center;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
+}
+
+#reykjavik-container {
+	background: aquamarine;
+	image-rendering: center;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
+}
+
+#aspen-container {
+	background: lightblue;
+	image-rendering: center;
+	margin-bottom: 35px;
+	padding: 0px 30px 30px 30px;
+	text-align: center;
+}
+
+#footer {
+	font-weight: bold;
+	text-align: center;
+}

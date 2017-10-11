@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	background: rgb(222, 222, 222);
+	font-family: lato, sans-serif;
+	font-size: 18px;
+	width: 1200px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 Auto;
+	padding: 15px;
+	background: white;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 54px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: normal;
+	color: grey;
+}
+
+h3.float-left {
+	margin: 15px;
+}
+
+section {
+	width: 65%;
+	height: 1700px;
+	background: #ffffff;
+}
+
+aside {
+	width: 30%;
+	height: 1300px;
+	background: #ffffff;
+}
+
+nav {
+	background: black;
+}
+
+nav a {
+	color: #ffffff;
+	font-size: 25px;
+	padding: 25px;
+	display: inline-block;
+	text-decoration: none;
+	border-right: 1px grey solid;
+}
+
+nav a:hover {
+	background-color: grey;
+	color: #ffffff;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+h2 a {
+	color: black;
+	font-weight: normal;
+}
+
+h4 {
+	text-align: right;
+	padding-bottom: 15px;
+}
+
+.article {
+	padding-top: 75px;
+	border-bottom: 1px grey solid;
+}
+
+.title {
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.padding {
+	text-align: center;
+}
+
+.article-right {
+	height: 350px;
+	color: grey;
+	padding-top: 100px;
+	border-bottom: 1px grey solid
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+p.first::first-letter { 
+    font-size: 400%;
+    color: grey;
+}
+
+.box {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	height: 200px;
+	width: 300px;
+	background-color: grey;
+	text-align: center;
+	font-size: 100px
+}
+
+.ul {
+	border-top: 1px grey solid;
+}
+footer {
+
+}
