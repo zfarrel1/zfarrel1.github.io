@@ -4,11 +4,6 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif;
-
-Could not figure out how to make the image expand 
-past its dimensions, when the browser is wider than 
-the image there is a white space on left and right of image.
-Also had trouble with the border
 */
 
 body {
@@ -76,7 +71,7 @@ nav a:hover {
 	overflow: auto;
 	width: 100%;
 	background-size: 100%;
-	background-position: center;
+	background-position: center; 
 
 
 }
@@ -125,11 +120,8 @@ button:hover {
 	width: 33%;
 	padding: 30px;
 	box-sizing: border-box;
-	
 	margin-top: 30px;
 }
-
-
 
 footer {
 	clear: both;
