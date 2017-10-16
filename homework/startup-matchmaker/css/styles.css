@@ -1,0 +1,133 @@
+
+
+/*FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+Could not figure out how to make the image expand 
+past its dimensions, when the browser is wider than 
+the image there is a white space on left and right of image.
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: black;
+	overflow: auto;
+	padding: 15px 30px;
+	border-bottom: 5px solid yellow;
+	font-family: 'Merriweather', sans-serif;
+}
+
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	float: left;
+	color: yellow;	
+}
+
+h2 {
+	font-weight: bold;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+nav a:hover {
+	color: grey;
+}
+
+.text {
+	background-color: lightgrey;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	padding: 15px;
+	text-align: center;
+	clear: both;
+}
+
+.taste {
+	color: grey;
+}
+
+.are {
+	border-bottom: 3px solid yellow;
+}
+
+.image {
+	background: url(../img/coworking.jpg) no-repeat;
+	overflow: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-position: center;	
+}
+
+.first-float {
+	float: right;
+	height: 200px;
+	width: 250px;
+	background-color: white;
+	margin: 30px;
+	padding: 30px;
+	background: rgba(255, 255, 255, .7);
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+button.yellow {
+	background-color: yellow;
+	width: 100%;
+
+}
+
+.title {
+	font-family: 'Merriweather', sans-serif;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 5px;
+}
+
+button {
+	background-color: lightgrey;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+button:hover {
+	color: grey;
+}
+
+.article {
+	float: left;
+	width: 33%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	padding: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
