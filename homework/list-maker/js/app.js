@@ -12,6 +12,28 @@
 
 // To Get Started:
 // 1. Attach a .click() event to #clickme
+
+$('#clickme').click(handleClick)
+	
+	
+
+	function handleClick () {
+		// clear()
+		var newItem = $('#item').val()
+		appendItem(newItem)
+		clear()
+		
+	}
+
+	function appendItem (item) {
+		//clear()
+		$('#list').append('<li>' + item + '</li>')
+		//clear()
+	}
+		//clear()
+	function clear() {
+		$('#item').val("")
+	}
 // 2. This .click() should call a function, named handleClick
 // 3. handleClick should create a variable, named newItem, that is equal to the value of #item
 // 4. handleClick should call a separate function, named appendItem, and pass it the variable newItem

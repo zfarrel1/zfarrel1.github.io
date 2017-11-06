@@ -102,7 +102,7 @@ p {
 	padding-top: 5px;
 }
 
-button {
+/**/button {
 	background-color: lightgrey;
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
@@ -134,3 +134,4 @@ footer {
 .border {
 	border-right: 1px solid lightgrey;
 }
+
