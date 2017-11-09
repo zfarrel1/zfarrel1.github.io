@@ -11,3 +11,14 @@
 //    Use the .addClass() method to add this variable as a class to <body>
 
 // Bonus: Apply the concept of $(this) - think about what element is causing .change() to fire
+
+$('#city-type').change(handleChange);
+
+function handleChange () {
+  var city = $('#city-type').val();
+  $('body').removeClass();
+  $('body').addClass(city);
+
+
+  
+}
