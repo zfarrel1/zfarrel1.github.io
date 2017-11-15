@@ -1,60 +1,79 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 header {
 	
-	background: url('../images/leaf.png');
+	background: url('../images/dew.png');
 	overflow: auto;
 	width: 100%;
 	background-size: 100%;
 	background-position: center; 
-	height: 300px;
+	height: 400px;
 }
 
+body {
+	background-color: white;
+
+}
 
 h1	{
 	color: white;
 	text-align: center;
 	font-size: 50px;
-	font-family: 'Oswald', sans-serif;
-
+	float: left;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 nav {
 	float: right;
 	margin-top: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
-.article {
-	float: right;
-	width: 30%;
-	padding: 30px;
-	box-sizing: border-box;
-	margin-top: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
-}
+
 
 p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	padding-top: 5px;
-	color: white;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	
 }
 
-.title {
-	font-family: 'Merriweather', sans-serif;
+
+footer {
+	clear: both;
+	background-color: black;
 	color: white;
-	font-size: 22px;
-	padding-bottom: 5px;
+	padding: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
 }
 
-button {
-	background-color: lightgrey;
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover { color: lightgrey;
+
+}
+
+
+.navbar {
+	background-color: black;
+	height: 90px;
+	position: fixed;
 	width: 100%;
-	font-family: 'Oswald', sans-serif;
-	margin-top: 20px;
-	font-weight: bold;
-	font-size: 20px;
 }
-button:hover {
-	color: grey;
-}
+
 
 .float-right {
 	
@@ -71,29 +90,14 @@ button:hover {
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid black;
+  border-top: 20px solid beige;
   clear: both;
   margin-left: 50%;
+  background-color: white;
 }
 
-#sour-diesel-image {
-	background: url('../images/sour-diesel.png') ;
-	overflow: auto;
-	background-size: 100%;
-	background-position: center; 
-	padding-top: 25%;
-	width: 25%;
-}
-#strawberry-og-image {
-	background: url('../images/strawberry.png') no-repeat;
-	overflow: auto;
-	background-size: 100%;
-	background-position: center; 
-	padding-top: 25%;
-	width: 25%;
-}
-#grape-ape-image {
-	background: url('../images/grape-ape.png') no-repeat;
+#image1 {
+	background: url('../images/tissue.png') ;
 	overflow: auto;
 	background-size: 100%;
 	background-position: center; 
@@ -101,39 +105,52 @@ button:hover {
 	width: 25%;
 }
 
-footer {
-	clear: both;
-	background-color: black;
-	color: white;
-	padding: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
+#sour-diesel-image:hover {
+
+}
+#image2 {
+	background: url('../images/rose2.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
+#image3 {
+	background: url('../images/terps.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
 }
 
 
-.text {
-	background-color: black;
+
+
+.about {
+	background-color: beige;
 	width: 100%;
-	height: 250px;
+	font-family: 'Merriweather', sans-serif;
+	color: black;
+	overflow: auto;
+	padding: 50px;
+	box-sizing: border-box;
+	
+	
 }
 
 .clear {
 	clear: both;
 	background-color: white;
 }
-.arrow-down {
-	background-color: white
-}
 
-.float-left {
-	float: left;
-	height: 100px;
-	width: 85%;
-	background-color: white;
-	margin: 30px;
-	padding: 30px;
-	background: rgba(255, 255, 255, .7);
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
+
+
+
+
+.picture {
+	background-color: beige;
+	width: 100%;
 }
 
