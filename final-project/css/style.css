@@ -1,105 +1,9 @@
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
-.wrapper {
-	width: 1200px;
-	margin: 0 auto;
-
-}
-
-.banner {
-	background: url('../images/dew.png');
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-	min-height: 50vh;
-}
-
-.body-text {
-	position: relative;
-	z-index: 10;
-	padding-top: 7rem;
-}
-	h1 {
-		font-family: sans-serif;
-		letter-spacing: 0.1rem
-		text-transform: uppercase;
-		padding-top: 2rem;
-	}
-
-
-	p {
-		font-size: 1.2rem;
-		font-family: sans-serif;
-		color: #777;
-		padding: 2rem 0;
-		line-height: 2rem;
-	}
-
-nav {
-	background: none;
-	min-height:85px;
-	position: fixed;
-	width: 100%
-	z-index: 20;
-	transition: 0.35s all ease;
-}
-	ul {
-		list-style: none;
-		padding: 2rem;
-		transition: 0.35s all ease;
-		}
-
-	li {
-		display: inline-block;
-		color: black;
-		padding: 0 1rem;
-		font-family: sans-serif;
-	}
-
-	a {
-		color: white;
-		text-decoration: none;
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
-	}
-
-
-.scrolled {
-	min-height: 10px
-	background: black;
-	transition: 0.35s all ease;
-}
-	ul {
-		padding: 1rem 2rem;
-		transition: 0.35s all ease;
-	}
-
-	li {
-		color: white;
-		transition: 0.2s all ease-in-out;
-	}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*html, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -282,4 +186,3 @@ li {
 	padding-right: 30px;
 	font-size: 20px;
 }
-*/
