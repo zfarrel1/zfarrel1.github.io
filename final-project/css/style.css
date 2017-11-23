@@ -1,27 +1,27 @@
-
-
-
-
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
 }
 
-header {
-	
-	background: url('../images/dew.png');
+
+
+.coverimage {
+	background: url('../images/ocean.png'), no-repeat;
 	overflow: auto;
 	width: 100%;
 	background-size: 100%;
 	background-position: center; 
-	height: 400px;
+	height: 100vh;
+
+}
+header {
+	
+	
 }
 
 body {
 	background-color: white;
-
 }
 
 h1	{
@@ -37,24 +37,20 @@ nav {
 	float: right;
 	margin-top: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
-
-
 }
 
 
 p {
 	font-family: 'Montserrat', sans-serif;
 	padding-top: 5px;
-	color: black;
+	color: white;
 	font-size: 30px;
 	text-align: center;
-	padding: 5px;
-	
+	padding: 5px;	
 }
 
+.footer {
 
-footer {
-	clear: both;
 	background-color: black;
 	color: white;
 	padding: 30px;
@@ -81,29 +77,24 @@ nav a:hover { color: lightgrey;
 }
 
 
-.float-right {
+.image {
 	
-	margin-right: 5%;
-	float: right;
-	border: white solid 5px;
-	margin-bottom: 10%;
-	margin-top: 10%;
-	border-radius: 15%;
+	margin:60px 0px;
 }
-
-.arrow-down {
+.picture_container {
+	margin: 20px;
+}
+.triangle-down {
   width: 0; 
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid beige;
-  clear: both;
-  margin-left: 50%;
+  border-top: 20px solid black;
   background-color: white;
 }
 
 #image1 {
-	background: url('../images/tissue.png') ;
+	background: url('../images/rose3.png') ;
 	overflow: auto;
 	background-size: 100%;
 	background-position: center; 
@@ -111,9 +102,6 @@ nav a:hover { color: lightgrey;
 	width: 25%;
 }
 
-#sour-diesel-image:hover {
-
-}
 #image2 {
 	background: url('../images/rose2.png') no-repeat;
 	overflow: auto;
@@ -122,8 +110,9 @@ nav a:hover { color: lightgrey;
 	padding-top: 25%;
 	width: 25%;
 }
+
 #image3 {
-	background: url('../images/terps.png') no-repeat;
+	background: url('../images/rose.png') no-repeat;
 	overflow: auto;
 	background-size: 100%;
 	background-position: center; 
@@ -131,42 +120,112 @@ nav a:hover { color: lightgrey;
 	width: 25%;
 }
 
+#image4 {
+	background: url('../images/tissue.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
 
+#image5 {
+	background: url('../images/tissue2.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
 
+#image6 {
+	background: url('../images/tissue3.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
+
+#image7 {
+	background: url('../images/comfrey.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
+#image8 {
+	background: url('../images/composttea.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
+
+#image9 {
+	background: url('../images/trichomes.png') no-repeat;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center; 
+	padding-top: 25%;
+	width: 25%;
+}
 
 #about {
-	background-color: beige;
+	background-color: black;
 	width: 100%;
 	font-family: 'Merriweather', sans-serif;
-	color: black;
+	color: white;
 	overflow: auto;
 	padding: 50px;
 	box-sizing: border-box;
-	
-	
 }
 
-.clear {
-	clear: both;
-	background-color: white;
+
+
+.tri
+{
+	display: flex;
+	justify-content: center;
 }
+
 
 
 #mobile-nav {
 	display: none;
 }
 
+#mobile-nav a {
+	display: block;
+	text-decoration: none;
+	background: black;
+	color: white;
+	border-bottom: 2px darkgrey solid;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
 
-.picture {
-	background-color: beige;
+#mobile-nav {
+	margin-top: 90px;
+	position: fixed;
 	width: 100%;
 }
 
+.pictures {
+	display: flex;
+	justify-content: space-around;
+}
 
 #burger {
 	display: none;
 	padding: 10px;
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
@@ -175,8 +234,8 @@ nav a:hover { color: lightgrey;
 		display: none;
 	}
 	#burger {
-		display: block;
-		float: right;
+		display: flex;
+		justify-content: flex-end;
 	}
 }
  
@@ -186,3 +245,4 @@ li {
 	padding-right: 30px;
 	font-size: 20px;
 }
+

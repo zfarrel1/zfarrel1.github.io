@@ -1,3 +1,15 @@
 body {
-	color: black;
+	color: red;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.footer {
+
+	text-align: center;
 }
