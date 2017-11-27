@@ -301,10 +301,11 @@ function onClick( event ) {
 	//added
 	// Image changing
 	var img_list = [
-					'pixel1.png',
-					'pixel2.png',
-					'pixel3.png',
-					'moon.png'
+					'rainbow.png',
+					'watermelon.png',
+					// 'pills.png',
+					// 'soup.png',
+					'hands.png'
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
