@@ -309,9 +309,6 @@ function onClick( event ) {
 					'photo_6.png',
 					//'photo_7b.png',
 					'photo_7c.png'
-					//gifs
-					//<iframe src="https://giphy.com/embed/xUA7bjoUNhwWVCfTR6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/siliconvalleyhbo-hbo-tech-xUA7bjoUNhwWVCfTR6">via GIPHY</a></p>,
-					//<iframe src="https://giphy.com/embed/l0MYLoXAw7JSyHiZG" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-saturday-night-live-2000s-l0MYLoXAw7JSyHiZG">via GIPHY</a></p>
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
