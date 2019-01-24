@@ -1,6 +1,6 @@
 img.main {
   height: 100%;
-  border-radius: 50%;
+  border-radius: 25%;
   z-index: 1;
   cursor: pointer;
   margin-top: 10px;
@@ -15,7 +15,7 @@ a {
  }
 
 i:hover {
-  color: lightpink;
+  color: whitesmoke;
 
 }
 
@@ -68,7 +68,7 @@ i:hover {
  }
 
 #currentImage:hover {
-  border: 10px solid lightpink;
+  border: 10px solid whitesmoke;
   padding-top: 0px;
 }
 
