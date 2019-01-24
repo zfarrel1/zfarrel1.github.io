@@ -301,11 +301,11 @@ function onClick( event ) {
 	//added
 	// Image changing
 	var img_list = [
-					'Screen Shot 2018-04-17 at 10.39.49 PM.png',
-					'watermelon.png',
-					'Screen Shot 2018-04-17 at 10.40.15 PM.png',
-					// 'soup.png',
-					'Screen Shot 2018-04-17 at 10.40.15 PM.png'
+					'picture_a.png',
+					'picture_b.png',
+					'picture_c.png',
+					'picture_d.png',
+					//'picture_x.png'
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
