@@ -9,7 +9,7 @@ img.main {
 
 a {
   z-index: 1;
-  color: whitesmoke;
+  color: black;
   font-size: 50px;
   text-decoration: none;
  }
@@ -34,7 +34,7 @@ i:hover {
   font-size: 80px;
   position: relative;
   z-index: 1;
-  color: whitesmoke;
+  color: black;
 /*  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
@@ -68,7 +68,7 @@ i:hover {
  }
 
 #currentImage:hover {
-  border: 10px solid whitesmoke;
+  border: 10px solid black;
   padding-top: 0px;
 }
 
