@@ -301,10 +301,10 @@ function onClick( event ) {
 	//added
 	// Image changing
 	var img_list = [
-					'picture_a.png',
+					'photo_1.png',
 					'picture_b.png',
-					'picture_c.png',
-					'picture_d.png',
+					//'picture_c.png',
+					//'picture_d.png',
 					//'picture_x.png'
 					];
 	// GLOBAL var img_index = 0; 
