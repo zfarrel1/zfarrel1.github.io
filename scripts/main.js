@@ -306,6 +306,7 @@ function onClick( event ) {
 					'photo_2b.png',
 					'photo_5.png',
 					'photo_6.png',
+					'photo_4b.png',
 					'photo_7b.png'
 					];
 	// GLOBAL var img_index = 0; 
