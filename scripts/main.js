@@ -318,7 +318,6 @@ function onClick( event ) {
 					'fortune6.png',
 					'fortune7.png',
 					'fortune8.png',
-					'fortune9.png',
 					'fortune10.png',
 					'fortune11.png',
 					'fortune12.png'
