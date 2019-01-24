@@ -305,7 +305,7 @@ function onClick( event ) {
 					'watermelon.png',
 					// 'pills.png',
 					// 'soup.png',
-					'hands.png'
+					'Screen Shot 2018-04-17 at 10.40.15 PM.png'
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
