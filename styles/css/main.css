@@ -15,7 +15,7 @@ a {
  }
 
 i:hover {
-  color: lightgrey;
+  color: lightpink;
 
 }
 
@@ -68,7 +68,7 @@ i:hover {
  }
 
 #currentImage:hover {
-  border: 10px solid lightgrey;
+  border: 10px solid lightpink;
   padding-top: 0px;
 }
 
