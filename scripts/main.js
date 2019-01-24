@@ -303,7 +303,7 @@ function onClick( event ) {
 	var img_list = [
 					'photo_1.png',
 					'photo_4.png',
-					'photo_6.png',
+					//'photo_6.png',
 					'photo_5.png',
 					'photo_7.png'
 					];
