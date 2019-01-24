@@ -308,7 +308,8 @@ function onClick( event ) {
 					//'photo_5.png',
 					'photo_6.png',
 					//'photo_7b.png',
-					'photo_7c.png'
+					'photo_7c.png',
+					<iframe src="https://giphy.com/embed/xUA7bjoUNhwWVCfTR6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/siliconvalleyhbo-hbo-tech-xUA7bjoUNhwWVCfTR6">via GIPHY</a></p>
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
