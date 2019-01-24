@@ -303,7 +303,7 @@ function onClick( event ) {
 	var img_list = [
 					'Screen Shot 2018-04-17 at 10.39.49 PM.png',
 					'watermelon.png',
-					// 'pills.png',
+					'Screen Shot 2018-04-17 at 10.40.15 PM.png',
 					// 'soup.png',
 					'Screen Shot 2018-04-17 at 10.40.15 PM.png'
 					];
