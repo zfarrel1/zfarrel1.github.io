@@ -296,4 +296,5 @@ html, body {
 }
 .tile .inlay.show .cover {
   background-color: rgba(0, 0, 0, 0);
+  opacity: 0.6;
 }
