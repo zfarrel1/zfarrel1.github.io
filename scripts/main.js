@@ -301,11 +301,11 @@ function onClick( event ) {
 	//added
 	// Image changing
 	var img_list = [
-					'photo_1.png',
+					//'photo_1.png',
 					'photo_4.png',
-					//'photo_6.png',
+					'photo_2.png',
 					'photo_5.png',
-					'photo_7.png'
+					'photo_7 copy2.png'
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
