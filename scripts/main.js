@@ -301,7 +301,7 @@ function onClick( event ) {
 	//added
 	// Image changing
 	var img_list = [
-					'rainbow.png',
+					'Screen Shot 2018-04-17 at 10.39.49 PM.png',
 					'watermelon.png',
 					// 'pills.png',
 					// 'soup.png',
