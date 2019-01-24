@@ -302,7 +302,7 @@ function onClick( event ) {
 	// Image changing
 	var img_list = [
 					'photo_1.png',
-					'picture_b.png',
+					'photo_4.png',
 					//'picture_c.png',
 					//'picture_d.png',
 					//'picture_x.png'
