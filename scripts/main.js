@@ -309,7 +309,9 @@ function onClick( event ) {
 					//'photo_6.png',
 					//'photo_7b.png',
 					//'photo_7c.png',
-					 'email.png'
+					//'email.png',
+					'fortune1.png',
+					'fortune2.png'
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
