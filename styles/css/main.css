@@ -16,13 +16,13 @@ a {
 
 i:hover {
   color: whitesmoke;
-
 }
 
 .favicons {
   display: flex;
   justify-content: space-around;
   margin-top: 7%;
+  padding-bottom: 10px;
 }
 
 #headline {
