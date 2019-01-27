@@ -322,7 +322,7 @@ function onClick( event ) {
 	else {
 		img_index = 0
 	}
-	document.getElementById("currentImage").src = 'images/'+img_list[img_index]
+	//document.getElementById("currentImage").src = 'images/'+img_list[img_index]
 	// console.log(img_index)
 	//end added
 
