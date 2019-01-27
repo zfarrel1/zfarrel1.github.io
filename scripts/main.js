@@ -312,7 +312,6 @@ function onClick( event ) {
 					'fortune10.png',
 					'fortune11.png',
 					'fortune12.png'
-		
 					];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
