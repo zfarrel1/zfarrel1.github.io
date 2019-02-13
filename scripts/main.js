@@ -314,15 +314,15 @@ function onClick( event ) {
 	//				'fortune12.png'
 	//				];
 	// GLOBAL var img_index = 0; 
-	var l = img_list.length;
+	// var l = img_list.length;
 	
-	if (img_index < (l-1)) {
-		img_index++
-	}
-	else {
-		img_index = 0
-	}
-	document.getElementById("currentImage").src = 'images/'+img_list[img_index]
+	//if (img_index < (l-1)) {
+	//	img_index++
+	//}
+	//else {
+	//	img_index = 0
+	//}
+	//document.getElementById("currentImage").src = 'images/'+img_list[img_index]
 	// console.log(img_index)
 	//end added
 
