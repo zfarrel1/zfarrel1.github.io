@@ -72,10 +72,10 @@ a:hover {
   }
  }
 
-#currentImage:hover {
+/*#currentImage:hover {
   border: 10px solid black;
   padding-top: 0px;
-}
+}*/
 
 #tag.before {
   width: 0;
