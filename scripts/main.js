@@ -300,19 +300,19 @@ function onClick( event ) {
 	container.appendChild( div );
 	//added
 	// Image changing
-	var img_list = [
-					'fortune1.png',
-					'fortune2.png',
-					'fortune3.png',
-					'fortune4.png',
-					'fortune5.png',
-					'fortune6.png',
-					'fortune7.png',
-					'fortune8.png',
-					'fortune10.png',
-					'fortune11.png',
-					'fortune12.png'
-					];
+	//var img_list = [
+	//				'fortune1.png',
+	//				'fortune2.png',
+	//				'fortune3.png',
+	//				'fortune4.png',
+	//				'fortune5.png',
+	//				'fortune6.png',
+	//				'fortune7.png',
+	//				'fortune8.png',
+	//				'fortune10.png',
+	//				'fortune11.png',
+	//				'fortune12.png'
+	//				];
 	// GLOBAL var img_index = 0; 
 	var l = img_list.length;
 	
